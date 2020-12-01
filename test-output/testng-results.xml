@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" ignored="0" total="6" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching and matching title = actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching and matching title = actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching and matching title = actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching and matching title = actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[User name = admin]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching and matching title = actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching and matching title = actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[User name = admin]]>
+    </line>
+    <line>
+      <![CDATA[Password = damger]]>
+    </line>
+    <line>
+      <![CDATA[Password = damger]]>
+    </line>
+    <line>
+      <![CDATA[User name = admin]]>
+    </line>
+    <line>
+      <![CDATA[Element is not present...]]>
+    </line>
+    <line>
+      <![CDATA[Element is not present...]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching and matching title = actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching and matching title = actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Element is not present...]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching and matching title = actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Element is present....]]>
+    </line>
+    <line>
+      <![CDATA[Actual version app = actiTIME 2020 Online]]>
+    </line>
+    <line>
+      <![CDATA[Element is not present...]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="107234" started-at="2020-11-30T16:11:56 IST" finished-at="2020-11-30T16:13:43 IST">
+    <groups>
+    </groups>
+    <test name="IETest" duration-ms="107223" started-at="2020-11-30T16:11:56 IST" finished-at="2020-11-30T16:13:43 IST">
+      <class name="Com_ActiTime_Test.InvalidLoginTest">
+        <test-method status="PASS" signature="precondition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Com_ActiTime_Test.InvalidLoginTest@7f9a81e8]" name="precondition" is-config="true" duration-ms="6798" started-at="2020-11-30T16:12:20 IST" finished-at="2020-11-30T16:12:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:1122/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demo.actitime.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="FAIL" signature="InvalidLogin()[pri:2, instance:Com_ActiTime_Test.InvalidLoginTest@7f9a81e8]" name="InvalidLogin" duration-ms="46561" started-at="2020-11-30T16:12:27 IST" finished-at="2020-11-30T16:13:13 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.fail(Assert.java:102)
+at Com_ActiTime_Generic.BasePage.verifyElement(BasePage.java:44)
+at Com_ActiTime_Page.actiTIMELoginPage.verifyErrorMessage(actiTIMELoginPage.java:47)
+at Com_ActiTime_Test.InvalidLoginTest.InvalidLogin(InvalidLoginTest.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching and matching title = actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[User name = admin]]>
+            </line>
+            <line>
+              <![CDATA[Password = damger]]>
+            </line>
+            <line>
+              <![CDATA[Element is not present...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="FAIL" signature="postcondition(org.testng.ITestResult)[pri:0, instance:Com_ActiTime_Test.InvalidLoginTest@7f9a81e8]" name="postcondition" is-config="true" duration-ms="10803" started-at="2020-11-30T16:13:13 IST" finished-at="2020-11-30T16:13:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogin status=FAILURE method=InvalidLoginTest.InvalidLogin()[pri:2, instance:Com_ActiTime_Test.InvalidLoginTest@7f9a81e8] output=Title is matching and matching title = actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CBT-2F-301', ip: '192.168.95.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10460, moz:profile: C:\Users\CBT\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 2ad0425b-b694-4484-8135-d58...}
+Session ID: 2ad0425b-b694-4484-8135-d588c5ac57b7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CBT-2F-301', ip: '192.168.95.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10460, moz:profile: C:\Users\CBT\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 2ad0425b-b694-4484-8135-d58...}
+Session ID: 2ad0425b-b694-4484-8135-d588c5ac57b7
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at Com_ActiTime_Generic.GeneriUtiles.getScreenShot(GeneriUtiles.java:19)
+at Com_ActiTime_Generic.BaseTest.postcondition(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Com_ActiTime_Test.InvalidLoginTest -->
+      <class name="Com_ActiTime_Test.VerifyVersionTest">
+        <test-method status="PASS" signature="precondition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Com_ActiTime_Test.VerifyVersionTest@62ee68d8]" name="precondition" is-config="true" duration-ms="6345" started-at="2020-11-30T16:13:24 IST" finished-at="2020-11-30T16:13:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:1122/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demo.actitime.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="FAIL" signature="VerifyVersion()[pri:3, instance:Com_ActiTime_Test.VerifyVersionTest@62ee68d8]" name="VerifyVersion" duration-ms="11489" started-at="2020-11-30T16:13:30 IST" finished-at="2020-11-30T16:13:42 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.fail(Assert.java:102)
+at Com_ActiTime_Generic.BasePage.verifyElement(BasePage.java:44)
+at Com_ActiTime_Page.actiTIMELoginPage.verifyVersion(actiTIMELoginPage.java:54)
+at Com_ActiTime_Test.VerifyVersionTest.VerifyVersion(VerifyVersionTest.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching and matching title = actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[Element is not present...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyVersion -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:Com_ActiTime_Test.VerifyVersionTest@62ee68d8]" name="postcondition" is-config="true" duration-ms="1048" started-at="2020-11-30T16:13:42 IST" finished-at="2020-11-30T16:13:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyVersion status=FAILURE method=VerifyVersionTest.VerifyVersion()[pri:3, instance:Com_ActiTime_Test.VerifyVersionTest@62ee68d8] output=Title is matching and matching title = actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Com_ActiTime_Test.VerifyVersionTest -->
+      <class name="Com_ActiTime_Test.ValidLoginLogoutTest">
+        <test-method status="PASS" signature="precondition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Com_ActiTime_Test.ValidLoginLogoutTest@9629756]" name="precondition" is-config="true" duration-ms="16984" started-at="2020-11-30T16:11:56 IST" finished-at="2020-11-30T16:12:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:1122/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demo.actitime.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="FAIL" signature="ValidLoginLogout()[pri:1, instance:Com_ActiTime_Test.ValidLoginLogoutTest@9629756]" name="ValidLoginLogout" duration-ms="5985" started-at="2020-11-30T16:12:13 IST" finished-at="2020-11-30T16:12:19 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[The element reference of <input id="username" class="textField" name="username" type="text"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CBT-2F-301', ip: '192.168.95.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12600, moz:profile: C:\Users\CBT\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: fd00bc53-d84e-4c23-8496-768...}
+Session ID: fd00bc53-d84e-4c23-8496-768b3c93be87]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element reference of <input id="username" class="textField" name="username" type="text"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CBT-2F-301', ip: '192.168.95.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12600, moz:profile: C:\Users\CBT\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: fd00bc53-d84e-4c23-8496-768...}
+Session ID: fd00bc53-d84e-4c23-8496-768b3c93be87
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+at Com_ActiTime_Page.actiTIMELoginPage.enteruserName(actiTIMELoginPage.java:34)
+at Com_ActiTime_Test.ValidLoginLogoutTest.ValidLoginLogout(ValidLoginLogoutTest.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching and matching title = actiTIME - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidLoginLogout -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:Com_ActiTime_Test.ValidLoginLogoutTest@9629756]" name="postcondition" is-config="true" duration-ms="1161" started-at="2020-11-30T16:12:19 IST" finished-at="2020-11-30T16:12:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidLoginLogout status=FAILURE method=ValidLoginLogoutTest.ValidLoginLogout()[pri:1, instance:Com_ActiTime_Test.ValidLoginLogoutTest@9629756] output=Title is matching and matching title = actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Com_ActiTime_Test.ValidLoginLogoutTest -->
+    </test> <!-- IETest -->
+    <test name="ChromeTest" duration-ms="107234" started-at="2020-11-30T16:11:56 IST" finished-at="2020-11-30T16:13:43 IST">
+      <class name="Com_ActiTime_Test.InvalidLoginTest">
+        <test-method status="PASS" signature="precondition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Com_ActiTime_Test.InvalidLoginTest@5056dfcb]" name="precondition" is-config="true" duration-ms="20942" started-at="2020-11-30T16:12:20 IST" finished-at="2020-11-30T16:12:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:1122/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demo.actitime.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="FAIL" signature="InvalidLogin()[pri:2, instance:Com_ActiTime_Test.InvalidLoginTest@5056dfcb]" name="InvalidLogin" duration-ms="2238" started-at="2020-11-30T16:12:41 IST" finished-at="2020-11-30T16:12:43 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[The element reference of <input id="username" class="textField" name="username" type="text"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CBT-2F-301', ip: '192.168.95.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10460, moz:profile: C:\Users\CBT\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 2ad0425b-b694-4484-8135-d58...}
+Session ID: 2ad0425b-b694-4484-8135-d588c5ac57b7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element reference of <input id="username" class="textField" name="username" type="text"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CBT-2F-301', ip: '192.168.95.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10460, moz:profile: C:\Users\CBT\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 2ad0425b-b694-4484-8135-d58...}
+Session ID: 2ad0425b-b694-4484-8135-d588c5ac57b7
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+at Com_ActiTime_Page.actiTIMELoginPage.enteruserName(actiTIMELoginPage.java:34)
+at Com_ActiTime_Test.InvalidLoginTest.InvalidLogin(InvalidLoginTest.java:27)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching and matching title = actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[User name = admin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:Com_ActiTime_Test.InvalidLoginTest@5056dfcb]" name="postcondition" is-config="true" duration-ms="40959" started-at="2020-11-30T16:12:43 IST" finished-at="2020-11-30T16:13:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogin status=FAILURE method=InvalidLoginTest.InvalidLogin()[pri:2, instance:Com_ActiTime_Test.InvalidLoginTest@5056dfcb] output=Title is matching and matching title = actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Com_ActiTime_Test.InvalidLoginTest -->
+      <class name="Com_ActiTime_Test.VerifyVersionTest">
+        <test-method status="PASS" signature="precondition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Com_ActiTime_Test.VerifyVersionTest@2669b199]" name="precondition" is-config="true" duration-ms="17799" started-at="2020-11-30T16:13:24 IST" finished-at="2020-11-30T16:13:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:1122/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demo.actitime.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="FAIL" signature="VerifyVersion()[pri:3, instance:Com_ActiTime_Test.VerifyVersionTest@2669b199]" name="VerifyVersion" duration-ms="1089" started-at="2020-11-30T16:13:42 IST" finished-at="2020-11-30T16:13:43 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.fail(Assert.java:102)
+at Com_ActiTime_Generic.BasePage.verifyElement(BasePage.java:44)
+at Com_ActiTime_Page.actiTIMELoginPage.verifyVersion(actiTIMELoginPage.java:54)
+at Com_ActiTime_Test.VerifyVersionTest.VerifyVersion(VerifyVersionTest.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching and matching title = actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[Element is not present...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyVersion -->
+        <test-method status="FAIL" signature="postcondition(org.testng.ITestResult)[pri:0, instance:Com_ActiTime_Test.VerifyVersionTest@2669b199]" name="postcondition" is-config="true" duration-ms="6" started-at="2020-11-30T16:13:43 IST" finished-at="2020-11-30T16:13:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyVersion status=FAILURE method=VerifyVersionTest.VerifyVersion()[pri:3, instance:Com_ActiTime_Test.VerifyVersionTest@2669b199] output=Title is matching and matching title = actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CBT-2F-301', ip: '192.168.95.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2984, moz:profile: C:\Users\CBT\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 6caa2045-b390-483c-9209-1cd...}
+Session ID: 6caa2045-b390-483c-9209-1cd46c2d125d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CBT-2F-301', ip: '192.168.95.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2984, moz:profile: C:\Users\CBT\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 6caa2045-b390-483c-9209-1cd...}
+Session ID: 6caa2045-b390-483c-9209-1cd46c2d125d
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at Com_ActiTime_Generic.GeneriUtiles.getScreenShot(GeneriUtiles.java:19)
+at Com_ActiTime_Generic.BaseTest.postcondition(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Com_ActiTime_Test.VerifyVersionTest -->
+      <class name="Com_ActiTime_Test.ValidLoginLogoutTest">
+        <test-method status="PASS" signature="precondition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Com_ActiTime_Test.ValidLoginLogoutTest@6574b225]" name="precondition" is-config="true" duration-ms="22857" started-at="2020-11-30T16:11:56 IST" finished-at="2020-11-30T16:12:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:1122/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demo.actitime.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="FAIL" signature="ValidLoginLogout()[pri:1, instance:Com_ActiTime_Test.ValidLoginLogoutTest@6574b225]" name="ValidLoginLogout" duration-ms="1270" started-at="2020-11-30T16:12:18 IST" finished-at="2020-11-30T16:12:20 IST">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CBT-2F-301', ip: '192.168.95.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12600, moz:profile: C:\Users\CBT\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: fd00bc53-d84e-4c23-8496-768...}
+Session ID: fd00bc53-d84e-4c23-8496-768b3c93be87]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CBT-2F-301', ip: '192.168.95.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12600, moz:profile: C:\Users\CBT\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: fd00bc53-d84e-4c23-8496-768...}
+Session ID: fd00bc53-d84e-4c23-8496-768b3c93be87
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+at Com_ActiTime_Page.actiTIMELoginPage.enteruserName(actiTIMELoginPage.java:34)
+at Com_ActiTime_Test.ValidLoginLogoutTest.ValidLoginLogout(ValidLoginLogoutTest.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching and matching title = actiTIME - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidLoginLogout -->
+        <test-method status="FAIL" signature="postcondition(org.testng.ITestResult)[pri:0, instance:Com_ActiTime_Test.ValidLoginLogoutTest@6574b225]" name="postcondition" is-config="true" duration-ms="30" started-at="2020-11-30T16:12:20 IST" finished-at="2020-11-30T16:12:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidLoginLogout status=FAILURE method=ValidLoginLogoutTest.ValidLoginLogout()[pri:1, instance:Com_ActiTime_Test.ValidLoginLogoutTest@6574b225] output=Title is matching and matching title = actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CBT-2F-301', ip: '192.168.95.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12600, moz:profile: C:\Users\CBT\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: fd00bc53-d84e-4c23-8496-768...}
+Session ID: fd00bc53-d84e-4c23-8496-768b3c93be87]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CBT-2F-301', ip: '192.168.95.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12600, moz:profile: C:\Users\CBT\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: fd00bc53-d84e-4c23-8496-768...}
+Session ID: fd00bc53-d84e-4c23-8496-768b3c93be87
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at Com_ActiTime_Generic.GeneriUtiles.getScreenShot(GeneriUtiles.java:19)
+at Com_ActiTime_Generic.BaseTest.postcondition(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Com_ActiTime_Test.ValidLoginLogoutTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
